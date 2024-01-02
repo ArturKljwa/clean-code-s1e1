@@ -1,3 +1,9 @@
+
+
+
+
+
+
 //Document is the DOM can be accessed in the console with document.window.
 // Tree is from the top, html, body, p etc.
 
@@ -8,14 +14,14 @@
 
 // Event handling, user interaction is what starts the code execution.
 
-var taskInput=document.getElementById("new-task");//Add a new task.
-var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.getElementById("incompleteTasks");//ul of #incompleteTasks
-var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
+const taskInput = document.querySelector("task_new");//Add a new task.
+const addButton = document.querySelector("button");//first button
+const inCompleteTaskHolder = document.querySelector("tasks__incoplete");//ul of #incompleteTasks
+const completedTasksHolder=document.querySelector("tasks__completed");//completed-tasks
 
 
 //New task list item
-var createNewTaskElement=function(taskString){
+const createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
 
