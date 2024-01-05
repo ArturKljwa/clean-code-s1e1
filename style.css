@@ -31,6 +31,7 @@ body {
 }
 
 .task {
+    text-align: left;
     width: 56%;
     display: inline-block;
     flex-grow: 1
@@ -164,6 +165,6 @@ ul li.tasks__edit input[type=text] {
     width: 224px
 }
 
-ul li.editMode label {
+ul li.tasks__edit label {
     display: none;
 }
