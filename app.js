@@ -40,7 +40,7 @@ const completedTasksHolder=document.querySelector("#tasks__completed");//complet
     editInput.className = "task";
 
     editButton.innerText = "Edit"; //innerText encodes special characters, HTML does not.
-    editButton.className = "edit";
+    editButton.className = "button_edit";
 
     deleteButton.className = "button_delete";
     deleteButtonImg.src = './remove.svg';
